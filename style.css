@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(219, 227, 227);
+}
+h3{
+    text-align: center;
+}
+.content{
+    display: block;
+}
+.heading{
+background-color: rgb(128, 174, 113);
+border-radius: 10px;
+padding: 10px;
+}
+.heading a{
+    text-decoration: none;
+    margin: 50px auto;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+.main{
+    background-color: rgb(162, 203, 148);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: rgb(128, 174, 113);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+a:hover{
+    color: aliceblue;
+}
