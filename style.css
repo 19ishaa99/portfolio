@@ -52,3 +52,13 @@ img{
 a:hover{
     color: aliceblue;
 }
+.project{
+    display: flex;
+    gap: 20px;
+}
+.implementationPhase, .designPhase{
+    background-color: rgb(129, 150, 122);
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
